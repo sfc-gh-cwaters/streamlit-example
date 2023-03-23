@@ -37,4 +37,3 @@ with st.echo(code_location='below'):
         .mark_circle(color='#0068c9', opacity=0.5)
         .encode(x='x:Q', y='y:Q'))
 
-    edited_df = st.experimental_data_editor(my_df)
